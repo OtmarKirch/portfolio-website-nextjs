@@ -16,5 +16,4 @@ model Project {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   text      String
-  
 }

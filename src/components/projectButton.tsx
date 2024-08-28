@@ -1,3 +1,6 @@
+"use client"
+import { useState } from "react";
+
 interface ProjectButtonProps {
     project: {
         id: number;
@@ -8,13 +11,19 @@ interface ProjectButtonProps {
 }
 
 export default function ProjectButton(props: ProjectButtonProps) {
+    const [counter, setCounter] = useState(0);
     
     const { id, name, text } = props.project;
+
+    const testFunction = () => {
+        setCounter(counter + 1);
+        console.log(`Button clicked ${counter} times`);
+    }
 
 
     return (
         <>
-        <button className="border-2 border-black">
+        <button onClick={testFunction} className="border-2 border-black">
             Project Number: {id}
             <br />
             Project Name: {name}

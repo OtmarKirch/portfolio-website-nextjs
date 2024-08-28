@@ -1,10 +1,13 @@
 import ProjectButton from "./projectButton";
 import { db } from "@/db";
+import { Project } from "@prisma/client";
+import * as actions from "@/actions";
 
 
 
 export default async function ProjectContainer() {
-    const projects = await db.project.findMany();
+    //const projects = await db.project.findMany();
+    const projects = await actions.getProjects();
 
     return (
         <>

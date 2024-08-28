@@ -1,13 +1,10 @@
-interface Project {
-    project: {
-        id: number;
-        name: string;
-        text: string;
-        show: boolean;
-    }
+import type { Project } from "@prisma/client";
+
+interface ProjectProps {
+    project: Project;
 }
 
-export default function ShowProject(props: Project) {
+export default function ShowProject(props: ProjectProps) {
     const { id, name, text, show } = props.project
 
     return (

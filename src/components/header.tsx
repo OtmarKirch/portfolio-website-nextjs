@@ -26,7 +26,7 @@ export default function Header() {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/edit">
+                        <Link href="/work/edit">
                             Edit
                         </Link>
                     </li>

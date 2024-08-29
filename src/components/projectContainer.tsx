@@ -10,8 +10,8 @@ export default async function ProjectContainer() {
 
     return (
         <>
-            <h1>Projects</h1>
-            <div className="border-2 border-slate-300 ">
+            <h1 className="text-center">Projects</h1>
+            <div className="flex flex-wrap justify-center max-w-2xl mx-auto border-2 border-slate-700 rounded-lg">
                 {projects.map((project) => (
                     <ProjectButton key={project.id} project={project} />
                 ))}

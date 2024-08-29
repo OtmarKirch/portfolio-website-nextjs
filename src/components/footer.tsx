@@ -2,7 +2,7 @@ export default function FooterComponent() {
     return (
         <footer>
             <hr />
-            <p>&copy; 2021</p>
+            <p className="text-center">&copy; 2021</p>
         </footer>
     )
 }

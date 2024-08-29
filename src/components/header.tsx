@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <header>
             <nav>
-                <ul>
+                <ul className="flex space-x-3 justify-center">
                     <li>
                         <Link href="/">
                             Home

@@ -18,10 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      
       <body className={inter.className}>
+        <div className="min-h-screen bg-gradient-to-tr from-blue-500 to-blue-300">
         <HeaderComponent />
         {children}
         <FooterComponent />
+        </div>
         </body>
     </html>
   );

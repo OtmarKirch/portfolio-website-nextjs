@@ -6,7 +6,6 @@ import * as actions from "@/actions";
 
 
 export default async function ProjectContainer() {
-    //const projects = await db.project.findMany();
     const projects = await actions.getProjects();
 
     return (

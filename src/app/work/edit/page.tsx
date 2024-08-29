@@ -1,5 +1,6 @@
 import ShowProject from "@/components/showProject"
 import { db } from "@/db"
+import { revalidatePath } from "next/cache"
 
 export default async function EditWork() {
     
@@ -17,6 +18,8 @@ export default async function EditWork() {
                 text: description
             }
         })
+
+        revalidatePath("/work")
     }
 
     let project = true

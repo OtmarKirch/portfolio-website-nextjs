@@ -4,7 +4,7 @@ export default function TileLayout() {
     return (
         <div className="">
             <h1>Tile Layout</h1>
-            <div className="grid grid-cols-3 gap-4 m-12">
+            <div className="grid grid-cols-3 gap-3 m-12 max-w-160 m-auto">
                 <TileComponent
                     id={1}
                     title="Work"

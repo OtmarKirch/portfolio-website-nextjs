@@ -1,9 +1,8 @@
 import TileComponent from "@/components/tileComponent";
 
-export default function TileLayoutPage() {
+export default function TileLayout() {
     return (
         <div className="">
-            <h1>Tile Layout</h1>
             <div className="grid grid-cols-3 gap-3 m-12 max-w-160 m-auto">
                 <TileComponent
                     id={1}

@@ -1,4 +1,10 @@
 import Link from "next/link";
+import { Bitter } from "next/font/google";
+
+const bitter = Bitter({
+    subsets: ["latin"],
+    weight: ["500", "700"],
+});
 
 
 interface TileProps {
@@ -20,11 +26,11 @@ export default function TileComponent({ id, title, description, bgImageUrl, link
                 <Link
                     href={link}
                     style={tileStyle}
-                    className="h-56 bg-contain bg-center bg-no-repeat col-span-3 md:col-span-2 hover:scale-105 transition duration-500 ease-in-out"
+                    className={`h-56 bg-contain bg-center bg-no-repeat col-span-3 md:col-span-2 hover:scale-105 transition duration-500 ease-in-out`}
                 >
                     <div className="[&:not(:hover)]:bg-red-800/80 hover:bg-gradient-to-br from-red-800/80 size-full">
                     <div className="">
-                        <h2 className="text-white text-xl p-2">{title}</h2>
+                        <h2 className={`${bitter.className} text-white text-xl p-2`}>{title}</h2>
                         <p className="text-white p-2">{description}</p>
                         </div>
                     </div>
@@ -36,11 +42,11 @@ export default function TileComponent({ id, title, description, bgImageUrl, link
                 <Link
                     href={link}
                     style={tileStyle}
-                    className="h-56 bg-contain bg-center bg-no-repeat col-span-3 md:col-span-1 hover:scale-105 transition duration-500 ease-in-out"
+                    className="text-inter h-56 bg-contain bg-center bg-no-repeat col-span-3 md:col-span-1 hover:scale-105 transition duration-500 ease-in-out"
                 >
                     <div className="[&:not(:hover)]:bg-blue-800/80 hover:bg-gradient-to-br from-blue-800/80 size-full">
-                        <h2>{title}</h2>
-                    <p>{description}</p>
+                        <h2 className={`${bitter.className} text-white text-xl p-2`}>{title}</h2>
+                    <p className="text-white p-2">{description}</p>
                     </div>
                     
                 </Link>
@@ -53,8 +59,8 @@ export default function TileComponent({ id, title, description, bgImageUrl, link
                     className="h-56 bg-cover bg-center bg-no-repeat col-span-3 md:col-span-1 hover:scale-105 transition duration-500 ease-in-out"
                 >
                     <div className="[&:not(:hover)]:bg-green-800/80 hover:bg-gradient-to-br from-green-800/80 size-full">
-                        <h2>{title}</h2>
-                    <p>{description}</p>
+                        <h2 className={`${bitter.className} text-white text-xl p-2`}>{title}</h2>
+                    <p className="text-white p-2">{description}</p>
                     </div>
                     
                 </Link>
@@ -67,8 +73,8 @@ export default function TileComponent({ id, title, description, bgImageUrl, link
                     className="h-56 bg-cover bg-center bg-no-repeat col-span-3 md:col-span-2 hover:scale-105 transition duration-500 ease-in-out"
                 >
                     <div className="[&:not(:hover)]:bg-yellow-800/80 hover:bg-gradient-to-br from-yellow-800/80 size-full">
-                        <h2>{title}</h2>
-                    <p>{description}</p>
+                        <h2 className={`${bitter.className} text-white text-xl p-2`}>{title}</h2>
+                    <p className="text-white p-2">{description}</p>
                     </div>
                     
                 </Link>

@@ -1,10 +1,21 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Roboto, Mulish } from "next/font/google";
 import "./globals.css";
 import HeaderComponent from "../components/header";
 import FooterComponent from "@/components/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+
+
+// const inter = Inter({ 
+//   subsets: ["latin"],
+//   variable: "--font-inter",
+// });
+
+const mulish = Mulish({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-mulish",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,14 +29,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      
-      <body className={inter.className}>
-        <div className="min-h-screen bg-gradient-to-tr from-blue-500 to-blue-300">
-        <HeaderComponent />
-        {children}
-        <FooterComponent />
+
+      <body>
+        <div 
+        className={`${mulish.variable} font-sans min-h-screen bg-gradient-to-tr from-slate-900 to-slate-500`}
+        >
+          <HeaderComponent />
+          {children}
+          <FooterComponent />
         </div>
-        </body>
+      </body>
     </html>
   );
 }

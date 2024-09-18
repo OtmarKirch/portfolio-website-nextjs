@@ -25,19 +25,22 @@ export default function TileComponent({ id, title, description, bgImageUrl, link
             return (
                 <Link
                     href={link}
-                    className="group col-span-1 md:col-span-2 h-56 overflow-hidden"
+                    className="group col-span-3 md:col-span-2 h-56 overflow-hidden"
                 >
                     <div className="relative size-full">
                         <div className="">
-                            <div className="absolute size-full flex justify-center items-center transition duration-500 group-hover:scale-110">
+                            <div className="absolute size-full bg-cover flex justify-center items-center transition duration-500 group-hover:scale-110">
                                 <img
-                                    className="h-56"
+                                    className="w-full"
                                     src={bgImageUrl}
                                 ></img>
                             </div>
                             <div className="absolute bg-gradient-to-br from-red-800 to-red-800/30 group-hover:to-red-800/10 transition-opacity duration-300 size-full">
                                 <h2 className={`${bitter.className} text-white text-xl p-2`}>{title}</h2>
-                                <p className="text-white p-2">{description}</p>
+                                <div className="absolute inset-x-0 bottom-0 hidden group-hover:block border-t-2 border-white bg-white/30">
+                                    <p className="text-white p-2">{description}</p>
+                                </div>
+                                
                             </div>
                         </div>
 
@@ -48,42 +51,78 @@ export default function TileComponent({ id, title, description, bgImageUrl, link
             return (
                 <Link
                     href={link}
-                    style={tileStyle}
-                    className="text-inter h-56 bg-contain bg-center bg-no-repeat col-span-3 md:col-span-1 hover:scale-105 transition duration-500 ease-in-out"
+                    className="group col-span-3 md:col-span-1 h-56 overflow-hidden"
                 >
-                    <div className="[&:not(:hover)]:bg-blue-800/80 hover:bg-gradient-to-br from-blue-800/80 size-full">
-                        <h2 className={`${bitter.className} text-white text-xl p-2`}>{title}</h2>
-                        <p className="text-white p-2">{description}</p>
-                    </div>
+                    <div className="relative size-full">
+                        <div className="">
+                            <div className="absolute size-full bg-cover flex justify-center items-center transition duration-500 group-hover:scale-110">
+                                <img
+                                    className="w-full md:h-full"
+                                    src={bgImageUrl}
+                                ></img>
+                            </div>
+                            <div className="absolute bg-gradient-to-br from-green-800 to-green-800/30 group-hover:to-green-800/10 transition-opacity duration-300 size-full">
+                                <h2 className={`${bitter.className} text-white text-xl p-2`}>{title}</h2>
+                                <div className="absolute inset-x-0 bottom-0 hidden group-hover:block border-t-2 border-t-white bg-white/30">
+                                    <p className="text-white p-2 ">{description}</p>
+                                </div>
+                                
+                            </div>
+                        </div>
 
+                    </div>
                 </Link>
             );
         case 3:
             return (
                 <Link
                     href={link}
-                    style={tileStyle}
-                    className="h-56 bg-cover bg-center bg-no-repeat col-span-3 md:col-span-1 hover:scale-105 transition duration-500 ease-in-out"
+                    className="group col-span-3 md:col-span-1 h-56 overflow-hidden"
                 >
-                    <div className="[&:not(:hover)]:bg-green-800/80 hover:bg-gradient-to-br from-green-800/80 size-full">
-                        <h2 className={`${bitter.className} text-white text-xl p-2`}>{title}</h2>
-                        <p className="text-white p-2">{description}</p>
-                    </div>
+                    <div className="relative size-full">
+                        <div className="">
+                            <div className="absolute size-full bg-cover flex justify-center items-center transition duration-500 group-hover:scale-110">
+                                <img
+                                    className="w-full md:h-full"
+                                    src={bgImageUrl}
+                                ></img>
+                            </div>
+                            <div className="absolute bg-gradient-to-br from-yellow-800 to-yellow-800/30 group-hover:to-yellow-800/10 transition-opacity duration-300 size-full">
+                                <h2 className={`${bitter.className} text-white text-xl p-2`}>{title}</h2>
+                                <div className="absolute inset-x-0 bottom-0 hidden group-hover:block border-t-2 border-t-white bg-white/30">
+                                    <p className="text-white p-2 ">{description}</p>
+                                </div>
+                                
+                            </div>
+                        </div>
 
+                    </div>
                 </Link>
             );
         case 0:
             return (
                 <Link
                     href={link}
-                    style={tileStyle}
-                    className="h-56 bg-cover bg-center bg-no-repeat col-span-3 md:col-span-2 hover:scale-105 transition duration-500 ease-in-out"
+                    className="group col-span-1 md:col-span-2 h-56 overflow-hidden"
                 >
-                    <div className="[&:not(:hover)]:bg-yellow-800/80 hover:bg-gradient-to-br from-yellow-800/80 size-full">
-                        <h2 className={`${bitter.className} text-white text-xl p-2`}>{title}</h2>
-                        <p className="text-white p-2">{description}</p>
-                    </div>
+                    <div className="relative size-full">
+                        <div className="">
+                            <div className="absolute size-full bg-cover flex justify-center items-center transition duration-500 group-hover:scale-110">
+                                <img
+                                    className="w-full"
+                                    src={bgImageUrl}
+                                ></img>
+                            </div>
+                            <div className="absolute bg-gradient-to-br from-blue-800 to-blue-800/30 group-hover:to-blue-800/10 transition-opacity duration-300 size-full">
+                                <h2 className={`${bitter.className} text-white text-xl p-2`}>{title}</h2>
+                                <div className="absolute inset-x-0 bottom-0 hidden group-hover:block border-t-2 border-t-white bg-white/30">
+                                    <p className="text-white p-2 ">{description}</p>
+                                </div>
+                                
+                            </div>
+                        </div>
 
+                    </div>
                 </Link>
             );
     }

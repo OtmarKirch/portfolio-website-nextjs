@@ -8,14 +8,14 @@ export default function TileLayout() {
                     id={1}
                     title="Work"
                     description="Take a look at my work"
-                    bgImageUrl="/img/react.png"
+                    bgImageUrl="/img/coding.png"
                     link="/work"
                 />
                 <TileComponent
                     id={2}
                     title="About"
                     description="Find out about me"
-                    bgImageUrl="/img/react.png"
+                    bgImageUrl="/img/coding.png"
                     link="/about"
                 />
                 <TileComponent

@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Header() {
     return (
-        <header>
+        <header className="">
             <nav>
                 <ul className="flex space-x-3 justify-center">
                     <li>

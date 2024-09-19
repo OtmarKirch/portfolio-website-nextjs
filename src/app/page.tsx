@@ -2,6 +2,7 @@ import Arcade from "@/components/arcade";
 import Hero from "@/components/hero";
 import ResumeComponent from "@/components/resume";
 import TileLayout from "@/components/tileLayout";
+import Contact from "@/components/contact";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
     <div>
       <Hero />
       <TileLayout />
+      <Contact />
     </div>
   );
 }

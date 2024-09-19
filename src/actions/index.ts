@@ -23,3 +23,7 @@ export const createProject = async (formData: FormData): Promise<void> => {
     revalidatePath("/work");
     revalidatePath("/");
 }
+
+export const sendContact = async (formData: FormData): Promise<void> => {
+
+}

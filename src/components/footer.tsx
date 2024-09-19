@@ -1,10 +1,18 @@
+import Link from "next/link"
+
 export default function FooterComponent() {
     return (
         <footer
-        className="absolute bottom-0 w-full bg-gray-200 p-4"
+            className="absolute bottom-0 w-full flex flex-row justify-center items-center bg-gray-200 p-4"
         >
-            <hr />
-            <p className="text-center">&copy; 2021</p>
+            <div className="h-8 md:h-16 xl:h-24 flex flex-row justify-center items-center gap-4 md:gap-6 xl:gap-8">
+                <Link className="size-full" href="#">
+                    <img className="size-full" src="img/linkedin_icon.svg" alt="" />
+                </Link>
+                <Link className="size-full" href="#">
+                    <img className="size-full" src="img/github_icon.svg" alt="" />
+                </Link>
+            </div>
         </footer>
     )
 }

@@ -103,7 +103,7 @@ export default function TileComponent({ id, title, description, bgImageUrl, link
             return (
                 <Link
                     href={link}
-                    className="group col-span-1 md:col-span-2 h-56 overflow-hidden"
+                    className="group col-span-3 md:col-span-2 h-56 overflow-hidden"
                 >
                     <div className="relative size-full">
                         <div className="">

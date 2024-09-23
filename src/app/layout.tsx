@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Roboto, Mulish } from "next/font/google";
 import "./globals.css";
-import HeaderComponent from "../components/header";
-import FooterComponent from "@/components/footer";
+import HeaderComponent from "../components/sections/header";
+import FooterComponent from "@/components/sections/footer";
 
 
 

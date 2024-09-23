@@ -1,8 +1,9 @@
 import Arcade from "@/components/arcade";
-import Hero from "@/components/hero";
-import ResumeComponent from "@/components/resume";
-import TileLayout from "@/components/tileLayout";
-import Contact from "@/components/contact";
+import Hero from "@/components/sections/hero";
+import Introduction from "@/components/sections/introduction";
+import Resume from "@/components/sections/resume";
+import Projects from "@/components/sections/projects";
+import Contact from "@/components/sections/contact";
 
 
 export default function Home() {
@@ -12,7 +13,9 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <TileLayout />
+      <Introduction />
+      <Resume />
+      <Projects />
       <Contact />
     </div>
   );

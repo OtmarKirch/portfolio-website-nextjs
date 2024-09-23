@@ -2,8 +2,8 @@ import TileComponent from "@/components/tileComponent";
 
 export default function TileLayout() {
     return (
-        <div className="mt-8">
-            <div className="grid grid-cols-3 gap-3">
+        <div className="">
+            <div className="grid grid-cols-3 md:gap-2 xl:gap-4">
                 <TileComponent
                     id={1}
                     title="Project 1"

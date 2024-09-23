@@ -22,7 +22,7 @@ export default function Contact() {
                             <div className="group">
                                 <button
                                     type="submit"
-                                    className="w-full mt-4 p-4 bg-gradient-to-tl opacity-70 from-blue-300 to-blue-800 text-white hover:opacity-100 duration-300"
+                                    className="w-full mt-2 md:mt-4 p-2 md:p-4 bg-gradient-to-tl opacity-70 from-blue-300 to-blue-800 text-white hover:opacity-100 duration-300"
                                 >
                                     <p className="group-hover:scale-125 duration-500">Send</p>
                                     </button>

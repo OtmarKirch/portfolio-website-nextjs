@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .section-container {
-  @apply max-w-7xl mx-auto;
+  @apply max-w-7xl mx-auto mt-2 md:mt-8 xl:mt-12;
 }
 
 h1 {

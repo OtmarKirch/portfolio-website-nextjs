@@ -11,5 +11,5 @@ h1 {
 }
 
 .custom-text {
-  @apply text-sm md:text-base xl:text-lg text-slate-900;
+  @apply text-sm md:text-base xl:text-lg;
 }

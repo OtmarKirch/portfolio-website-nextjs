@@ -10,7 +10,13 @@ export default function Arcade() {
     return (
         <>
             {/* Grid container */}
-            <div className="flex justify-center items-center container max-w-6xl mx-auto">
+            <div className="flex flex-col justify-center items-center container max-w-6xl mx-auto">
+
+                <div className="relative group w-48 h-48">
+                    <div className="absolute inset-0 opacity-100 group-hover:opacity-0  bg-gradient-to-r from-green-400 to-yellow-800 duration-1000"></div>
+                    <div className="absolute inset-0 opacity-0 group-hover:opacity-100 duration-1000 bg-gradient-to-r from-blue-800 to-blue-300"></div>
+                </div>
+
                 <div className="flex flex-col md:flex-row border-4 border-slate-300 rounded-full overflow-hidden">
                     {/* Border left/top */}
                     <div className="md:hidden h-[75px] w-[150px] border-b-4"></div>

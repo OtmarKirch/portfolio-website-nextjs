@@ -15,10 +15,10 @@ export default function Myscifiangularclient() {
 
             <h2>Impressions</h2>
             <p>Viewing the movies</p>
-            <Image src="/img/projects/mySciFiAppAngular/Angular1.png" alt="" width={600} height={400} />
+            <Image src="/img/projects/mySciFiAppAngular/Angular1.png" alt="" width={600} height={495} />
 
             <p>Updating details</p>
-            <Image src="/img/projects/mySciFiAppAngular/Angular2.png" alt="" width={600} height={400} />
+            <Image src="/img/projects/mySciFiAppAngular/Angular2.png" alt="" width={600} height={574} />
 
         </div>
     )

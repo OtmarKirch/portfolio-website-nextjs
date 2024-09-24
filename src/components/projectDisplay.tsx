@@ -10,6 +10,9 @@ export default function ProjectDisplay() {
                     description="Small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the viewing of data points in detail."
                     bgImageUrl="/img/coding.png"
                     link="/projects/pokedec/#pokedec"
+                    html="/img/technologies/html5_icon.svg"
+                    css="/img/technologies/css3_icon.svg"
+                    javascript="/img/technologies/js_icon.svg"
                 />
                 <ProjectTile
                     id={2}

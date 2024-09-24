@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Bitter } from "next/font/google";
 
 const bitter = Bitter({
@@ -13,10 +14,10 @@ interface TileProps {
     description: string;
     bgImageUrl: string;
     link: string;
-    [key: string]: string | number;
+    [key: string]: any;
 }
 
-export default function ProjectTile({ id, title, description, bgImageUrl, link, ...props}: TileProps) {
+export default function ProjectTile({ id, title, description, bgImageUrl, link, ...props }: TileProps) {
 
     switch (id % 4) {
         case 1:
@@ -38,7 +39,14 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
                                 <div className="absolute inset-x-0 bottom-0 hidden group-hover:block border-t-2 border-white bg-white/30">
                                     <p className="text-white p-2">{description}</p>
                                 </div>
-                                
+
+                            </div>
+                            <div className="absolute right-2 md:right-4 top-2 md:top-4 flex justify-center items-center gap-1 md:gap-2 xl:gap-4">
+                                {Object.keys(props).map((key) => (
+                                    <div className="flex flex-col justify-center items-center gap-1" key={key}>
+                                        <Image className="w-10 md:w-14" src={props[key]} alt={key} width={100} height={100} />
+                                    </div>
+                                ))}
                             </div>
                         </div>
 
@@ -64,7 +72,7 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
                                 <div className="absolute inset-x-0 bottom-0 hidden group-hover:block border-t-2 border-t-white bg-white/30">
                                     <p className="text-white p-2 ">{description}</p>
                                 </div>
-                                
+
                             </div>
                         </div>
 
@@ -90,7 +98,7 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
                                 <div className="absolute inset-x-0 bottom-0 hidden group-hover:block border-t-2 border-t-white bg-white/30">
                                     <p className="text-white p-2 ">{description}</p>
                                 </div>
-                                
+
                             </div>
                         </div>
 
@@ -116,7 +124,7 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
                                 <div className="absolute inset-x-0 bottom-0 hidden group-hover:block border-t-2 border-t-white bg-white/30">
                                     <p className="text-white p-2 ">{description}</p>
                                 </div>
-                                
+
                             </div>
                         </div>
 

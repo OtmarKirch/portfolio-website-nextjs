@@ -2,7 +2,7 @@ import Navigation from "../navigation";
 
 export default function Hero() {
     return (
-        <div className="relative section-container text-white">
+        <div className="relative max-w-7xl mx-auto text-white">
             <div className="absolute left-2 top-2 sm:left-4 sm:top-4 md:top-8 xl:top-16 custom-text">
                 <Navigation />
             </div>

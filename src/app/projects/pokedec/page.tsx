@@ -15,7 +15,6 @@ export default function Pokedec() {
             githubUrl="https://github.com/OtmarKirch/simple-js-app/"
             appUrl="https://otmarkirch.github.io/simple-js-app/"
             />
-            <div className="h-48"></div>
             <ProjectImpressions
             images={[
                 "/img/projects/pokedec/PokedecStartView.png",
@@ -23,9 +22,9 @@ export default function Pokedec() {
                 "/img/projects/pokedec/PokedecDetails.png"
             ]}
             descriptions={[
-                "The pokedec app at the start. It shows all Pokémon by default with their statistics.",
-                "The input allows for searching and selecting Pokémon.",
-                "Details of the selected Pokémon are shown."
+                "The Pokedec app at the start. As soon as the app is opened, an API call fetches the data of all Pokemons. By default a list of all Pokemons is shown as buttons.",
+                "The input bar at the top allows for searching Pokémons. The search bar is filters the list of Pokémons as the user types, reduces the list of buttons and highlites the matching characters.",
+                "When the user clicks on a button, a modal with the selected Pokemon appears. The modal shows the name, the image, the type and the abilities of the selected Pokemon. A click anywhere outside the modal closes it."
             ]}
             />
             

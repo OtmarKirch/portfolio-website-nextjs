@@ -24,7 +24,7 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
             return (
                 <Link
                     href={link}
-                    className="group col-span-3 md:col-span-2 h-32 md:h-56 overflow-hidden"
+                    className="group col-span-5 md:col-span-3 h-32 md:h-56 overflow-hidden"
                 >
                     <div className="relative size-full">
                         <div className="">
@@ -44,7 +44,7 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
                             <div className="absolute right-2 md:right-4 top-2 md:top-4 flex justify-center items-center gap-1 md:gap-2 xl:gap-4">
                                 {Object.keys(props).map((key) => (
                                     <div className="flex flex-col justify-center items-center gap-1" key={key}>
-                                        <Image className="w-10 md:w-14" src={props[key]} alt={key} width={100} height={100} />
+                                        <Image className="w-10 lg:w-14" src={props[key]} alt={key} width={100} height={100} />
                                     </div>
                                 ))}
                             </div>
@@ -57,7 +57,7 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
             return (
                 <Link
                     href={link}
-                    className="group col-span-3 md:col-span-1 h-32 md:h-56 overflow-hidden"
+                    className="group col-span-5 md:col-span-2 h-32 md:h-56 overflow-hidden"
                 >
                     <div className="relative size-full">
                         <div className="">
@@ -74,6 +74,13 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
                                 </div>
 
                             </div>
+                            <div className="absolute right-2 md:right-4 top-2 md:top-4 flex justify-center items-center gap-1 md:gap-2 xl:gap-4">
+                                {Object.keys(props).map((key) => (
+                                    <div className="flex flex-col justify-center items-center gap-1" key={key}>
+                                        <Image className="w-10 lg:w-14" src={props[key]} alt={key} width={100} height={100} />
+                                    </div>
+                                ))}
+                            </div>
                         </div>
 
                     </div>
@@ -83,7 +90,7 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
             return (
                 <Link
                     href={link}
-                    className="group col-span-3 md:col-span-1 h-32 md:h-56 overflow-hidden"
+                    className="group col-span-5 md:col-span-2 h-32 md:h-56 overflow-hidden"
                 >
                     <div className="relative size-full">
                         <div className="">
@@ -100,6 +107,13 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
                                 </div>
 
                             </div>
+                            <div className="absolute right-2 md:right-4 top-2 md:top-4 flex justify-center items-center gap-1 md:gap-2 xl:gap-4">
+                                {Object.keys(props).map((key) => (
+                                    <div className="flex flex-col justify-center items-center gap-1" key={key}>
+                                        <Image className="w-10 lg:w-14" src={props[key]} alt={key} width={100} height={100} />
+                                    </div>
+                                ))}
+                            </div>
                         </div>
 
                     </div>
@@ -109,7 +123,7 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
             return (
                 <Link
                     href={link}
-                    className="group col-span-3 md:col-span-2 h-32 md:h-56 overflow-hidden"
+                    className="group col-span-5 md:col-span-3 h-32 md:h-56 overflow-hidden"
                 >
                     <div className="relative size-full">
                         <div className="">
@@ -125,6 +139,13 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
                                     <p className="text-white p-2 ">{description}</p>
                                 </div>
 
+                            </div>
+                            <div className="absolute right-2 md:right-4 top-2 md:top-4 flex justify-center items-center gap-1 md:gap-2 xl:gap-4">
+                                {Object.keys(props).map((key) => (
+                                    <div className="flex flex-col justify-center items-center gap-1" key={key}>
+                                        <Image className="w-10 lg:w-14" src={props[key]} alt={key} width={100} height={100} />
+                                    </div>
+                                ))}
                             </div>
                         </div>
 

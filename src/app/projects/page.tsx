@@ -1,8 +1,10 @@
-export default function Projects() {
+import Projects from "@/components/sections/projects"
+
+export default function ProjectsPage() {
 
     return (
         <div>
-            <h1>Projects Page</h1>
+            <Projects />
         </div>
     )
 }

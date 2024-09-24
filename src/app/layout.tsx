@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Roboto, Mulish } from "next/font/google";
 import "./globals.css";
-import HeaderComponent from "../components/navigation";
+import Hero from "@/components/sections/hero";
 import FooterComponent from "@/components/sections/footer";
 
 
@@ -31,12 +31,13 @@ export default function RootLayout({
     <html lang="en">
 
       <body>
-        <div 
-        className={`${mulish.variable} font-sans min-h-screen bg-gradient-to-tr from-slate-900 to-slate-500`}
+        <div
+          className={`${mulish.variable} font-sans min-h-screen bg-gradient-to-tr from-slate-900 to-slate-500`}
         >
+          <Hero />
           {children}
           <FooterComponent />
-          
+
         </div>
       </body>
     </html>

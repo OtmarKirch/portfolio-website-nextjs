@@ -1,7 +1,7 @@
 "use client"
 
 import { useFormState } from "react-dom";
-import * as actions from "@/actions"
+import * as actions from "../../../archive/actions"
 
 export default function Contact() {
     // const [formState, action] = useFormState(actions.sendContact{

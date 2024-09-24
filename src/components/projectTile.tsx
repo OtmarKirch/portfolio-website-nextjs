@@ -15,10 +15,7 @@ interface TileProps {
     link: string;
 }
 
-export default function TileComponent({ id, title, description, bgImageUrl, link }: TileProps) {
-    const tileStyle = {
-        backgroundImage: `url(${bgImageUrl})`,
-    };
+export default function ProjectTile({ id, title, description, bgImageUrl, link }: TileProps) {
 
     switch (id % 4) {
         case 1:

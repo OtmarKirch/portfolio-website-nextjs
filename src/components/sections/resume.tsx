@@ -24,7 +24,7 @@ export default function Resume() {
 
                 <div className="hidden md:block h-36 xl:h-48 pl-4 border-r-2 border-r-slate-800"></div>
 
-                <div className="flex flex-row md:flex-col justify-center items-center space-y-1 md:space-y-2 xl:space-y-4 space-x-4 max-w-sm">
+                <div className="flex flex-row md:flex-col justify-center items-center space-y-1 md:space-y-2 xl:space-y-4 space-x-4 max-w-sm !mt-0">
                     <div className="flex flex-col justify-center items-center space-y-1 md:space-y-2">
                         <Image width={1024} height={1024} src={"/img/resume/skills_icon.png"} alt="passion icon"
                             className="h-12 w-12 md:h-18 md:w-18 xl:h-24 xl:w-24"
@@ -36,7 +36,7 @@ export default function Resume() {
 
                 <div className="hidden md:block h-36 xl:h-48 pl-4 border-r-2 border-r-slate-800"></div>
 
-                <div className="flex flex-row md:flex-col justify-center items-center space-y-1 md:space-y-2 xl:space-y-4 space-x-4 max-w-sm">
+                <div className="flex flex-row md:flex-col justify-center items-center space-y-1 md:space-y-2 xl:space-y-4 space-x-4 max-w-sm !mt-0">
                     <div className="flex flex-col justify-center items-center space-y-1 md:space-y-2">
                         <Image width={1024} height={1024} src={"/img/resume/scale_icon.png"} alt="passion icon"
                             className="h-12 w-12 md:h-18 md:w-18 xl:h-24 xl:w-24"

@@ -8,8 +8,8 @@ interface ProjectLinksProps {
 
 export default function ProjectLinks({ appUrl, githubUrl }: ProjectLinksProps) {
     return (
-        <div className="section-container">
-            <div className="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4 md:gap-8 xl:gap-12">
+        <div className="section-container ">
+            <div className="py-2 md:py-4 lg:py-8 flex flex-col sm:flex-row justify-center items-center gap-4 md:gap-8 xl:gap-12 grey-gradient">
                 {appUrl && (
                     
                         <Link href={appUrl}>

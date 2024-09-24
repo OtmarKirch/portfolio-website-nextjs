@@ -6,10 +6,10 @@ export default function ProjectDisplay() {
             <div className="grid grid-cols-3 md:gap-2 xl:gap-4">
                 <ProjectTile
                     id={1}
-                    title="Project 1"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    title="Pokedec"
+                    description="Small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the viewing of data points in detail."
                     bgImageUrl="/img/coding.png"
-                    link="/"
+                    link="/projects/pokedec/#pokedec"
                 />
                 <ProjectTile
                     id={2}

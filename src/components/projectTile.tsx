@@ -13,9 +13,10 @@ interface TileProps {
     description: string;
     bgImageUrl: string;
     link: string;
+    [key: string]: string | number;
 }
 
-export default function ProjectTile({ id, title, description, bgImageUrl, link }: TileProps) {
+export default function ProjectTile({ id, title, description, bgImageUrl, link, ...props}: TileProps) {
 
     switch (id % 4) {
         case 1:

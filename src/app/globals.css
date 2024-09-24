@@ -13,3 +13,7 @@ h1 {
 .custom-text {
   @apply text-sm md:text-base xl:text-lg;
 }
+
+.grey-gradient {
+  @apply bg-gradient-to-tl from-slate-400 to-slate-800/50;
+}

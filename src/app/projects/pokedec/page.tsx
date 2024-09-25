@@ -1,7 +1,7 @@
 import ProjectDescription from "@/components/projectDescription"
 import ProjectTechnologies from "@/components/projectTechnologies"
 import ProjectLinks from "@/components/projectLinks"
-import ProjectImpressions from "@/components/sections/projectImpressions"
+import ProjectImpressions from "@/components/projectImpressions"
 
 export default function Pokedec() {
     return (

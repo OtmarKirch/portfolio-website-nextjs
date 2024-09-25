@@ -1,4 +1,3 @@
-import Hero from "@/components/sections/hero";
 import Introduction from "@/components/sections/introduction";
 import Resume from "@/components/sections/resume";
 import Projects from "@/components/sections/projects";
@@ -14,7 +13,7 @@ export default function Home() {
       <Introduction />
       <Resume />
       <Projects />
-      <Contact />
+      {/*<Contact />*/}
     </div>
   );
 }

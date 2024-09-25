@@ -14,7 +14,7 @@ export default function Navigation() {
                 </li>
                 <li className="group hover:cursor-pointer">
                     <div className="flex flex-col items-center">
-                        <Link href="#about">
+                        <Link href="/#about">
                             About
                         </Link>
                         <div className="opacity-0 group-hover:opacity-100 border-b-2 xl:border-b-4 border-b-white w-4 group-hover:w-full transition-all duration-500"></div>
@@ -28,14 +28,14 @@ export default function Navigation() {
                         <div className="opacity-0 group-hover:opacity-100 border-b-2 xl:border-b-4 border-b-white w-4 group-hover:w-full transition-all duration-500"></div>
                     </div>
                 </li>
-                <li className="group hover:cursor-pointer">
+                {/*<li className="group hover:cursor-pointer">
                     <div className="flex flex-col items-center">
-                        <Link href="#contact">
+                        <Link href="/#contact">
                             Contact
                         </Link>
                         <div className="opacity-0 group-hover:opacity-100 border-b-2 xl:border-b-4 border-b-white w-4 group-hover:w-full transition-all duration-500"></div>
                     </div>
-                </li>
+                </li>*/}
             </ul>
         </nav>
     );

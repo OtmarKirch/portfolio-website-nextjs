@@ -11,7 +11,7 @@ export default function SciFiAppServer() {
         <div className="section-container text-white">
             <h1 id="myscifi" className="text-center">mySci-Fi App</h1>
             <ProjectDescription
-                description="In the following slide show you can see the development of the whole MERN stack (MongoDB, Express, React and Node.js), including the server side which is realized in another project."
+                description="This app was developed using the whole MERN stack (MongoDB, Express, React and Node.js). This includes the client side as well as the server handling the API requests and connecting to the database. The slide show below gives you a detailed impression of the development journey."
             />
             <ProjectTechnologies
                 html={"/img/technologies/html5_icon.svg"}

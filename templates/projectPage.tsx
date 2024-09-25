@@ -27,6 +27,7 @@ export default function ProjectPage() {
             tailwind={"/img/technologies/tailwind_icon.svg"}
             nextjs={"/img/technologies/nextjs_icon.svg"}
             postman={"/img/technologies/postman_icon.svg"}
+            puppeteer={"/img/technologies/puppeteer_icon.png"}
             />
             <ProjectLinks
             githubUrl=""

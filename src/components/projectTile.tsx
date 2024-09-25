@@ -35,13 +35,13 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
                                 ></img>
                             </div>
                             <div className="absolute bg-gradient-to-br from-red-800 to-red-800/30 group-hover:to-red-800/10 transition-opacity duration-300 size-full">
-                                <h2 className={`${bitter.className} text-white text-xl p-2`}>{title}</h2>
+                                <h2 className={`${bitter.className} text-white text-xl p-4`}>{title}</h2>
                                 <div className="absolute inset-x-0 bottom-0 hidden group-hover:block border-t-2 border-white bg-white/30">
                                     <p className="text-white p-2">{description}</p>
                                 </div>
 
                             </div>
-                            <div className="absolute right-2 md:right-4 top-2 md:top-4 flex justify-center items-center gap-1 md:gap-2 xl:gap-4">
+                            <div className="absolute right-3 md:right-4 top-3 md:top-4 flex justify-center items-center gap-1 md:gap-2 xl:gap-4">
                                 {Object.keys(props).map((key) => (
                                     <div className="flex flex-col justify-center items-center gap-1" key={key}>
                                         <Image className="w-10 lg:w-14" src={props[key]} alt={key} width={100} height={100} />
@@ -68,13 +68,13 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
                                 ></img>
                             </div>
                             <div className="absolute bg-gradient-to-br from-green-800 to-green-800/30 group-hover:to-green-800/10 transition-opacity duration-300 size-full">
-                                <h2 className={`${bitter.className} text-white text-xl p-2`}>{title}</h2>
+                                <h2 className={`${bitter.className} text-white text-xl p-4`}>{title}</h2>
                                 <div className="absolute inset-x-0 bottom-0 hidden group-hover:block border-t-2 border-t-white bg-white/30">
                                     <p className="text-white p-2 ">{description}</p>
                                 </div>
 
                             </div>
-                            <div className="absolute right-2 md:right-4 top-2 md:top-4 flex justify-center items-center gap-1 md:gap-2 xl:gap-4">
+                            <div className="absolute right-3 md:right-4 top-3 md:top-4 flex justify-center items-center gap-1 md:gap-2 xl:gap-4">
                                 {Object.keys(props).map((key) => (
                                     <div className="flex flex-col justify-center items-center gap-1" key={key}>
                                         <Image className="w-10 lg:w-14" src={props[key]} alt={key} width={100} height={100} />
@@ -101,13 +101,13 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
                                 ></img>
                             </div>
                             <div className="absolute bg-gradient-to-br from-yellow-800 to-yellow-800/30 group-hover:to-yellow-800/10 transition-opacity duration-300 size-full">
-                                <h2 className={`${bitter.className} text-white text-xl p-2`}>{title}</h2>
+                                <h2 className={`${bitter.className} text-white text-xl p-4`}>{title}</h2>
                                 <div className="absolute inset-x-0 bottom-0 hidden group-hover:block border-t-2 border-t-white bg-white/30">
                                     <p className="text-white p-2 ">{description}</p>
                                 </div>
 
                             </div>
-                            <div className="absolute right-2 md:right-4 top-2 md:top-4 flex justify-center items-center gap-1 md:gap-2 xl:gap-4">
+                            <div className="absolute right-3 md:right-4 top-3 md:top-4 flex justify-center items-center gap-1 md:gap-2 xl:gap-4">
                                 {Object.keys(props).map((key) => (
                                     <div className="flex flex-col justify-center items-center gap-1" key={key}>
                                         <Image className="w-10 lg:w-14" src={props[key]} alt={key} width={100} height={100} />
@@ -134,13 +134,13 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
                                 ></img>
                             </div>
                             <div className="absolute bg-gradient-to-br from-blue-800 to-blue-800/30 group-hover:to-blue-800/10 transition-opacity duration-300 size-full">
-                                <h2 className={`${bitter.className} text-white text-xl p-2`}>{title}</h2>
+                                <h2 className={`${bitter.className} text-white text-xl p-4`}>{title}</h2>
                                 <div className="absolute inset-x-0 bottom-0 hidden group-hover:block border-t-2 border-t-white bg-white/30">
                                     <p className="text-white p-2 ">{description}</p>
                                 </div>
 
                             </div>
-                            <div className="absolute right-2 md:right-4 top-2 md:top-4 flex justify-center items-center gap-1 md:gap-2 xl:gap-4">
+                            <div className="absolute right-3 md:right-4 top-3 md:top-4 flex justify-center items-center gap-1 md:gap-2 xl:gap-4">
                                 {Object.keys(props).map((key) => (
                                     <div className="flex flex-col justify-center items-center gap-1" key={key}>
                                         <Image className="w-10 lg:w-14" src={props[key]} alt={key} width={100} height={100} />

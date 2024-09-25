@@ -9,7 +9,7 @@ const bitter = Bitter({
 
 export default function Resume() {
     return (
-        <div className="section-container">
+        <div className="section-container text-white">
             <div className="flex flex-col md:flex-row justify-center items-center space-x-2 xl:space-x-10 space-y-8 w-11/12 mx-auto my-4">
 
                 <div className="flex flex-row md:flex-col justify-center items-center space-y-1 md:space-y-2 xl:space-y-4 space-x-4 max-w-sm">

@@ -59,7 +59,7 @@ export default function ProjectDisplay() {
                     title="Portfolio Website"
                     description="This is the portfolio website you are currently visiting. It was developed with Next.js, Tailwind CSS, and TypeScript."
                     bgImageUrl="/img/coding.png"
-                    link="/"
+                    link="/projects/portfolio/#portfolio"
                     tailwind="/img/technologies/tailwind_icon.svg"
                     nextjs="/img/technologies/nextjs_icon.svg"
                     typescript="/img/technologies/ts_icon.svg"

@@ -23,50 +23,47 @@ export default function ProjectDisplay() {
                     mongodb="/img/technologies/mongodb_icon.svg"
                     react="/img/technologies/react_icon.svg"
                     node="/img/technologies/node_icon.svg"
+                    postman="/img/technologies/postman_icon.svg"
                 />
                 <ProjectTile
                     id={3}
-                    title="Project 3"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    title="Meet App"
+                    description="My first full fledged pwa. This project features the use of test driven development, React, serverless functions, OAuth2 and more."
                     bgImageUrl="/img/coding.png"
-                    link="/"
+                    link="/projects/meetapp/#meetapp"
+                    pwa="/img/technologies/pwa_icon.svg"
+                    jest="/img/technologies/jest_icon.svg"
+                    aws="/img/technologies/aws_icon.svg"
                 />
                 <ProjectTile
                     id={4}
-                    title="Project 4"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    title="Chat App"
+                    description="Native chat app developed with React Native using Metro Expo, Android Studio and Xcode for testing."
                     bgImageUrl="/img/coding.png"
-                    link="/"
+                    link="/projects/chatapp/#chatapp"
+                    react="/img/technologies/react_icon.svg"
+                    metro="/img/technologies/metro_icon.svg"
+                    firebase="/img/technologies/firebase_icon.svg"
                 />
                 <ProjectTile
                     id={5}
-                    title="Project 5"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    title="mySci-Fi Angular"
+                    description="This is a rewrite of the client side of the mySciFi app with the Angular framework."
                     bgImageUrl="/img/coding.png"
-                    link="/"
+                    link="/projects/myscifiangular/#myscifiangular"
+                    angular="/img/technologies/angular_icon.svg"
+                    typescript="/img/technologies/ts_icon.svg"
                 />
                 <ProjectTile
                     id={6}
-                    title="Project 6"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    title="Portfolio Website"
+                    description="This is the portfolio website you are currently visiting. It was developed with Next.js, Tailwind CSS, and TypeScript."
                     bgImageUrl="/img/coding.png"
                     link="/"
+                    tailwind="/img/technologies/tailwind_icon.svg"
+                    nextjs="/img/technologies/nextjs_icon.svg"
+                    typescript="/img/technologies/ts_icon.svg"
                 />
-                <ProjectTile
-                    id={7}
-                    title="Project 7"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                    bgImageUrl="/img/coding.png"
-                    link="/"
-                />
-                <ProjectTile
-                    id={8}
-                    title="Project 8"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                    bgImageUrl="/img/coding.png"
-                    link="/"
-                />
-                
             </div>
 
         </div>

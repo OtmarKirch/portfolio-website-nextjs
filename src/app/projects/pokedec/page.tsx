@@ -1,5 +1,3 @@
-import Image from "next/image"
-import Link from "next/link"
 import ProjectDescription from "@/components/projectDescription"
 import ProjectTechnologies from "@/components/projectTechnologies"
 import ProjectLinks from "@/components/projectLinks"

@@ -1,7 +1,7 @@
 import ProjectDescription from "@/components/projectDescription"
 import ProjectTechnologies from "@/components/projectTechnologies"
 import ProjectLinks from "@/components/projectLinks"
-import ProjectImpressions from "@/components/sections/projectImpressions"
+import ProjectImpressions from "@/components/projectImpressions"
 
 export default function ProjectPage() {
     return (
@@ -19,6 +19,14 @@ export default function ProjectPage() {
             angular={"/img/technologies/angular_icon.svg"}
             mongodb={"/img/technologies/mongodb_icon.svg"}
             node={"/img/technologies/node_icon.svg"}
+            pwa={"/img/technologies/pwa_icon.svg"}
+            jest={"/img/technologies/jest_icon.svg"}
+            aws={"/img/technologies/aws_icon.svg"}
+            firebase={"/img/technologies/firebase_icon.svg"}
+            metro={"/img/technologies/metro_icon.svg"}
+            tailwind={"/img/technologies/tailwind_icon.svg"}
+            nextjs={"/img/technologies/nextjs_icon.svg"}
+            postman={"/img/technologies/postman_icon.svg"}
             />
             <ProjectLinks
             githubUrl=""

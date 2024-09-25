@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Meetapp() {
     return (
         <div className="section-container text-white">
-            <h1>Meet App</h1>
+            <h1 id="meetapp">Meet App</h1>
             <h2>My first full fledged pwa. This project features the use of test driven development, React, serverless functions, OAuth2 and more.</h2>
             <p>This project involves building a serverless, progressive web application (PWA) using React and a test-driven development (TDD) approach. The application leverages the Google Calendar API to fetch upcoming events. By combining serverless and PWA concepts, the application benefits from no backend maintenance, scalability, availability, no idle time costs, instant loading, offline support, push notifications, add to home screen prompt, responsive design, and cross-platform compatibility. The TDD approach ensures high-quality code by writing tests before actual functionality. The application also includes data visualization through graphs, enhancing its visual appeal and data interpretation. Users can search for a city and get a list of events hosted in that city. The data visualization component includes a scatter plot showing the number of events in each location and a pie chart visualizing the popularity of event genres.</p>
             <p>Take a look at <Link href="https://otmarkirch.github.io/meetApp/">the App</Link></p>

@@ -12,7 +12,7 @@ export default function ProjectLinks({ appUrl, githubUrl }: ProjectLinksProps) {
             <div className="py-2 md:py-4 lg:py-8 flex flex-col sm:flex-row justify-center items-center gap-4 md:gap-8 xl:gap-12 grey-gradient">
                 {appUrl && (
                     
-                        <Link href={appUrl}>
+                        <Link href={appUrl} target="_blank">
                             <div className="group flex flex-row justify-center items-center gap-3">
                                 <div className="relative h-12 w-14">
                                 <div className="absolute opacity-50 group-hover:opacity-100 duration-300 inset-0 bg-gradient-to-tl from-blue-800 to-blue-500 rounded-md"></div>
@@ -24,7 +24,7 @@ export default function ProjectLinks({ appUrl, githubUrl }: ProjectLinksProps) {
                     
                 )}
                 {githubUrl && (
-                    <Link className="!mt-0" href={githubUrl}>
+                    <Link className="!mt-0" href={githubUrl} target="_blank">
                         <div className="group flex flex-row justify-center items-center gap-3">
                             <p className="text-sm md:text-base xl:text-lg text-right">Take a look <br />at the code</p>
                             <div className="relative h-12 w-12">

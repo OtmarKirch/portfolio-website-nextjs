@@ -12,9 +12,9 @@ export default function Introduction() {
                     />
                     <div className="mr-4 md:mr-12 xl:mr-24">
                         <h1 className="hidden sm:block md:mb-4">About Me</h1>
-                        <p className="custom-text my-2">
+                        <p className="custom-text text-justify my-2">
                             <p id="no_top_margin">
-                                I am a passionate <span>&lt; web &gt;</span> developer from Germany - Full-Stack Web Developer with comprehensive expertise in creating and maintaining web applications, and a passion for test-driven development. Experienced in both collaborative environments and detail-oriented, independent work, consistently ensuring reliable and timely delivery.
+                                I am a passionate full-stack <span>&lt; web &gt;</span> developer from Germany with comprehensive expertise in creating and maintaining web applications, and a passion for test-driven development. Experienced in both collaborative environments and detail-oriented, independent work, consistently ensuring reliable and timely delivery.
                             </p>
                         </p>
                     </div>

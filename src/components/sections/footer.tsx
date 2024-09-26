@@ -3,9 +3,11 @@ import Image from "next/image"
 
 export default function FooterComponent() {
     return (
-        <footer
-            className="sticky top-[100vh] mt-4 md:mt-8 xl:mt-16 w-full grid grid-cols-3 bg-gray-200 p-4"
+    <footer className="sticky top-[100vh] bg-gray-200">
+        <div
+            className=" max-w-7xl mx-auto mt-4 md:mt-8 xl:mt-16 w-full grid grid-cols-3 p-4"
         >
+            
             <div className="h-6 md:h-12 xl:h-24 flex flex-row justify-center items-center gap-4 md:gap-6 xl:gap-8"></div>
             <div className="h-6 md:h-12 xl:h-24 flex flex-row justify-center items-center gap-4 md:gap-6 xl:gap-8">
 
@@ -31,6 +33,7 @@ export default function FooterComponent() {
                     </Link>
                     <div className="absolute -z-10 inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-tl from-blue-800 to-blue-500 transition-opacity duration-500"></div>
                 </div>
+            </div>
             </div>
         </footer>
     )

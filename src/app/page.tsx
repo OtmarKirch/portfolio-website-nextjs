@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Introduction />
-      <Resume />
+      {/*<Resume /> */}
       <Projects />
       {/*<Contact />*/}
     </div>

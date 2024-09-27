@@ -11,9 +11,10 @@ h1 {
 }
 
 .custom-text {
-  @apply text-sm md:text-base xl:text-lg;
+  @apply text-sm md:text-base xl:text-lg font-mulish;
 }
 
 .grey-gradient {
   @apply bg-gradient-to-br from-slate-600 via-slate-500 to-slate-600;
 }
+

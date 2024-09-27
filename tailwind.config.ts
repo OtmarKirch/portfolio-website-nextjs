@@ -23,13 +23,15 @@ const config: Config = {
         224: "56rem",
       },
       fontFamily: {
-        sans: ["var(--font-mulish)"],
+        'mulish': ["Mulish", ...defaultTheme.fontFamily.sans],
+        'bitter': ["Bitter", ...defaultTheme.fontFamily.serif],
+        'diph': ["Diphylleia", ...defaultTheme.fontFamily.serif],
       },
       letterSpacing: {
         widest: ".3em",
       }
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
 export default config;

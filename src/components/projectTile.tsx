@@ -1,11 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Bitter } from "next/font/google";
-
-const bitter = Bitter({
-    subsets: ["latin"],
-    weight: ["500", "700"],
-});
 
 
 interface TileProps {
@@ -35,7 +29,7 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
                                 ></img>
                             </div>
                             <div className="absolute bg-gradient-to-br from-red-800 to-red-800/30 group-hover:to-red-800/10 transition-opacity duration-300 size-full">
-                                <h2 className={`${bitter.className} text-white text-xl p-4`}>{title}</h2>
+                                <h2 className={`font-bitter font-bold text-white text-xl p-4`}>{title}</h2>
                                 <div className="absolute inset-x-0 bottom-0 hidden group-hover:block border-t-2 border-white bg-white/30">
                                     <p className="text-white p-2">{description}</p>
                                 </div>
@@ -68,7 +62,7 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
                                 ></img>
                             </div>
                             <div className="absolute bg-gradient-to-br from-green-800 to-green-800/30 group-hover:to-green-800/10 transition-opacity duration-300 size-full">
-                                <h2 className={`${bitter.className} text-white text-xl p-4`}>{title}</h2>
+                                <h2 className={`font-bitter font-bold text-white text-xl p-4`}>{title}</h2>
                                 <div className="absolute inset-x-0 bottom-0 hidden group-hover:block border-t-2 border-t-white bg-white/30">
                                     <p className="text-white p-2 ">{description}</p>
                                 </div>
@@ -101,7 +95,7 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
                                 ></img>
                             </div>
                             <div className="absolute bg-gradient-to-br from-yellow-800 to-yellow-800/30 group-hover:to-yellow-800/10 transition-opacity duration-300 size-full">
-                                <h2 className={`${bitter.className} text-white text-xl p-4`}>{title}</h2>
+                                <h2 className={`font-bitter font-bold text-white text-xl p-4`}>{title}</h2>
                                 <div className="absolute inset-x-0 bottom-0 hidden group-hover:block border-t-2 border-t-white bg-white/30">
                                     <p className="text-white p-2 ">{description}</p>
                                 </div>
@@ -134,7 +128,7 @@ export default function ProjectTile({ id, title, description, bgImageUrl, link, 
                                 ></img>
                             </div>
                             <div className="absolute bg-gradient-to-br from-blue-800 to-blue-800/30 group-hover:to-blue-800/10 transition-opacity duration-300 size-full">
-                                <h2 className={`${bitter.className} text-white text-xl p-4`}>{title}</h2>
+                                <h2 className={`font-bitter font-bold text-white text-xl p-4`}>{title}</h2>
                                 <div className="absolute inset-x-0 bottom-0 hidden group-hover:block border-t-2 border-t-white bg-white/30">
                                     <p className="text-white p-2 ">{description}</p>
                                 </div>

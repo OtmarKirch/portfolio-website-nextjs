@@ -24,7 +24,7 @@ export default function ProjectDescription({ description }: ProjectDescriptionPr
                 </div>
                 <div className="hidden sm:flex flex-row w-full">
                     <div className="w-1/2 pr-4">
-                        <p className="text-sm md:text-base xl:text-lg">{descriptionFirstHalf}</p>
+                        <p className="text-sm md:text-base xl:text-lg text-pretty">{descriptionFirstHalf}</p>
                     </div>
                     <div className="w-1/2 pl-4">
                         <p className="text-sm md:text-base xl:text-lg">{descriptionSecondHalf}</p>

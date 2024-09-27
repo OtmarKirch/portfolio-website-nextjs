@@ -14,6 +14,9 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      boxShadow: {
+        "image": "0 35px 60px -15px rgba(0, 0, 0, 0.3)",
+      },
       spacing: {
         112: "28rem",
         128: "32rem",

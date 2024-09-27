@@ -4,7 +4,7 @@ export default function Introduction() {
 
     return (
         <div className="section-container text-white">
-            <div className="pt-3 md:pt-0 flex flex-col justify-center items-center bg-gradient-to-tl from-slate-400 to-slate-800/50">
+            <div className="py-6 flex flex-col justify-center items-center grey-gradient">
             <h1 className="sm:hidden text-center text-white">About Me</h1>
                 <div className="flex justify-center items-center">
                     <Image width={1024} height={1024} src={"/img/Otmar.png"} alt="Image Otmar Kirchgäßner"

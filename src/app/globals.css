@@ -15,5 +15,5 @@ h1 {
 }
 
 .grey-gradient {
-  @apply bg-gradient-to-tl from-slate-400 to-slate-800/50;
+  @apply bg-gradient-to-br from-slate-600 via-slate-500 to-slate-600;
 }

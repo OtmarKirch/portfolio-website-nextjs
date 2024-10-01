@@ -47,15 +47,12 @@ export default function Skills() {
                 <h2 className="hidden md:block text-right text-xl md:text-2xl xl:text-3xl font-bold font-mulish">Project <br /> Technologies</h2>
                 <div className="hidden md:block h-36 xl:h-48 pl-4 border-r-2 border-r-white"></div>
                 <div className="md:hidden w-72 border-b-2 border-b-white"></div>
-                <div className="flex flex-col lg:flex-row justify-center item-center gap-3 lg:gap-5">
-                    {chunkedTechs.map((chunk, index) => (
-                        <div className="flex flex-row justify-center items-center gap-3" key={`chunk ${index}`}>
-                            {chunk.map(([key, value]) => (
+                <div className="flex flex-wrap justify-center item-center gap-3 lg:gap-5">
+                    {Object.entries(techs).map(([key, value]) => (
                                 <div className="flex flex-col justify-center items-center" key={key}>
                                     <Image className="w-10 md:w-14 xl:w-28" src={value} alt={`icon ${key}`} width={100} height={100} />
                                 </div>
-                            ))}
-                        </div>
+                        
                     ))}
                 </div>
             </div>

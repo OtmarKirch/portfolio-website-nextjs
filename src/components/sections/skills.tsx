@@ -19,6 +19,7 @@ export default function Skills() {
         nextjs: "/img/technologies/nextjs_icon.svg",
         postman: "/img/technologies/postman_icon.svg",
         puppeteer: "/img/technologies/puppeteer_icon.png",
+        docker: "/img/technologies/docker_icon.svg",
     };
 
     type Techs = {

@@ -28,6 +28,8 @@ export default function ProjectPage() {
             nextjs={"/img/technologies/nextjs_icon.svg"}
             postman={"/img/technologies/postman_icon.svg"}
             puppeteer={"/img/technologies/puppeteer_icon.png"}
+            docker={"/img/technologies/docker_icon.svg"}
+            wireshark={"/img/technologies/wireshark_icon.png"}
             />
             <ProjectLinks
             githubUrl=""

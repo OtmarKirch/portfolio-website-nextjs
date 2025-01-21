@@ -1,5 +1,5 @@
 # Portfolio Website
 
-This is my personal portfolio website. It is built using Next.js and Tailwind CSS.
+This is my personal portfolio website. It is built using Next.js with TypeScript and Tailwind CSS.
 
-The website is currently in development and is not yet live.
+You can take a look at my website at [otmarkirchgaessner.com](http://otmarkirchgaessner.com)

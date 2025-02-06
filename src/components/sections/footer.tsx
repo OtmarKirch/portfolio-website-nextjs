@@ -12,7 +12,7 @@ export default function FooterComponent() {
             <div className="h-6 md:h-12 xl:h-24 flex flex-row justify-center items-center gap-4 md:gap-6 xl:gap-8">
 
                 <div className="group relative h-full hover:scale-105 duration-1000">
-                    <Link className="h-full" href="https://www.linkedin.com/in/otmar-kirchg%C3%A4%C3%9Fner-6196b18a/" target="_blank">
+                    <Link className="h-full" href="www.linkedin.com/in/otmar-kirchgäßner" target="_blank">
                         <img className="h-full" src="img/linkedin_icon_grey.svg" alt="" />
                     </Link>
                     <div className="absolute -z-10 inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-tl from-blue-800 to-blue-500 transition-opacity duration-500 rounded-sm md:rounded-md"></div>

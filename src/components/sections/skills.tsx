@@ -20,6 +20,8 @@ export default function Skills() {
         postman: "/img/technologies/postman_icon.svg",
         puppeteer: "/img/technologies/puppeteer_icon.png",
         docker: "/img/technologies/docker_icon.svg",
+        rust: "/img/technologies/rust_icon.svg",
+        prisma: "img/technologies/prisma_icon.svg"
     };
 
     type Techs = {

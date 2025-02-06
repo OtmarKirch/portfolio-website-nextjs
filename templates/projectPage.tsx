@@ -30,6 +30,8 @@ export default function ProjectPage() {
             puppeteer={"/img/technologies/puppeteer_icon.png"}
             docker={"/img/technologies/docker_icon.svg"}
             wireshark={"/img/technologies/wireshark_icon.png"}
+            rust={"/img/technologies/rust_icon.svg"}
+            prisma={"img/technologies/prisma_icon.svg"}
             />
             <ProjectLinks
             githubUrl=""
